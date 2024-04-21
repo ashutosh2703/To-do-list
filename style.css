@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.container{
+    border-radius: 15px;
+    background-color: aquamarine;
+    width: 35vw;
+    height: 50vh;
+    box-shadow: 4px 5px 6px;
+    overflow-y: scroll;
+   
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    font-weight: 900 ;
+    border-bottom:1px solid white ;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+}
+#inputTask{
+    padding:7px ;
+    border-radius: 5px;
+}
+button{
+ background-color:yellow;
+  border-radius: 10px;
+  height: 40px;
+}
+.btn-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+    font-size: 0.9rem;
+}
+
+.t-list{
+    list-style: none;
+    padding:15px ;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 7px;
+}
+
+
+.container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.container::-webkit-scrollbar-track {
+    background:rgb(110, 203, 172);
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #54adb6; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners */
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar handle on hover */
+}
